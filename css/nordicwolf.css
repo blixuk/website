@@ -593,7 +593,7 @@ body::-webkit-scrollbar-thumb {
 /* Medium Screen */
 @media all and (max-width: 720px) {
 	.wave-container .wave{
-		position:absolute;
+		position: fixed;
 		top:calc(100% - 11rem);
 		left:0;
 		width: 100%;
